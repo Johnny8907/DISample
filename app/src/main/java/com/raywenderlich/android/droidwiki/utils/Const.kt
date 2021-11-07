@@ -37,3 +37,11 @@ class Const {
     const val BASE_URL = "wikipedia.org/w/api.php"
   }
 }
+
+class Const2 {
+  companion object {
+    const val PROTOCOL = "http"
+    const val LANGUAGE = "en"
+    const val BASE_URL = "www.baidu.com"
+  }
+}
